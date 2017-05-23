@@ -12,7 +12,6 @@ services:
     - /usr/local/bin/docker-compose:/usr/local/bin/docker-compose
     - /var/run/docker.sock:/var/run/docker.sock
     - /etc/ssl/certs/ca-certificates.crt:/etc/ssl/certs/ca-certificates.crt
-    - ./dtr-ca.crt:/etc/docker/certs.d/159.100.250.45/ca.crt
     - /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.1:/usr/lib/x86_64-linux-gnu/libltdl.so.7.3.1
     - /usr/lib/x86_64-linux-gnu/libltdl.so.7:/usr/lib/x86_64-linux-gnu/libltdl.so.7
     networks:
