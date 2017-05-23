@@ -9,7 +9,6 @@ services:
     volumes:
     - jenkins_home:/var/jenkins_home
     - /usr/bin/docker:/usr/bin/docker
-    - /usr/local/bin/docker-compose:/usr/local/bin/docker-compose
     - /var/run/docker.sock:/var/run/docker.sock
     - /etc/ssl/certs/ca-certificates.crt:/etc/ssl/certs/ca-certificates.crt
     - /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.1:/usr/lib/x86_64-linux-gnu/libltdl.so.7.3.1
