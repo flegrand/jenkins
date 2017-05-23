@@ -13,6 +13,7 @@ services:
     - /etc/ssl/certs/ca-certificates.crt:/etc/ssl/certs/ca-certificates.crt
     - /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.1:/usr/lib/x86_64-linux-gnu/libltdl.so.7.3.1
     - /usr/lib/x86_64-linux-gnu/libltdl.so.7:/usr/lib/x86_64-linux-gnu/libltdl.so.7
+    - /root/dtr_ca.crt:/etc/docker/certs.d/registry.demo.cloudcontrolled.net/ca.crt
     networks:
       - build
     deploy:
