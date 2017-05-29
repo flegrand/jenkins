@@ -24,7 +24,4 @@ services:
 
 networks:
   build:
-
-volumes:
-    jenkins_home:
     
