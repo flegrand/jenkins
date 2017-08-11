@@ -8,6 +8,7 @@ services:
     - 50000:50000
     volumes:
     - /root/git/jenkins-data:/var/jenkins_home
+    - /root/git/jenkins/ucp-bundle:/var/jenkins_home/ucp-bundle
     - /usr/bin/docker:/usr/bin/docker
     - /var/run/docker.sock:/var/run/docker.sock
     - /etc/ssl/certs/ca-certificates.crt:/etc/ssl/certs/ca-certificates.crt
